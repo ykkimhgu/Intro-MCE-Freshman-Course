@@ -1,0 +1,21 @@
+{
+  "name": "intro-mce-freshman-course",
+  "private": true,
+  "description": "기계제어공학부 전공소개 강의 PPT 빌드 도구",
+  "scripts": {
+    "build:1": "node lecture-series/lecture1_build_reference.js",
+    "build:2": "node lecture2/src/build.js",
+    "build:3": "node lecture3/src/build.js",
+    "build:4": "node lecture4/build/build.js",
+    "build:quiz12": "node quiz12/build/build_quiz.js quiz_data_basic.js",
+    "build:quiz34": "node quiz34/build/build_quiz.js quiz_data.js",
+    "build:quiz34-basic": "node quiz34/build/build_quiz.js quiz_data_basic.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-icons": "^5.7.0",
+    "sharp": "^0.35.5"
+  }
+}

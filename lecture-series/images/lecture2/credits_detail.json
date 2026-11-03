@@ -1,0 +1,65 @@
+{
+ "s02_electronics_line": {
+  "file": "s02_electronics_line.jpg",
+  "title": "File:SMT-Bestueckung.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:SMT-Bestueckung.jpg",
+  "author": "ECD Electronic Components GmbH Dresden",
+  "license": "CC BY-SA 3.0",
+  "width": 600,
+  "height": 400
+ },
+ "s12_cobot": {
+  "file": "s12_cobot.jpg",
+  "title": "File:UR16e robot arm.png",
+  "source": "https://commons.wikimedia.org/wiki/File:UR16e_robot_arm.png",
+  "author": "Auledas",
+  "license": "CC BY-SA 4.0",
+  "width": 8605,
+  "height": 6963
+ },
+ "s03_robot_row": {
+  "file": "s03_robot_row.jpg",
+  "title": "File:Industriemuseum Chemnitz - moderne Karosserieschweißanlage mit Industrierobotern.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Industriemuseum_Chemnitz_-_moderne_Karosserieschwei%C3%9Fanlage_mit_Industrierobotern.jpg",
+  "author": "Norbert Kaiser",
+  "license": "CC BY-SA 4.0",
+  "width": 1280,
+  "height": 815
+ },
+ "s07_datacenter": {
+  "file": "s07_datacenter.jpg",
+  "title": "File:BalticServers data center.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+  "author": "BalticServers.com",
+  "license": "CC BY-SA 3.0",
+  "width": 2048,
+  "height": 1360
+ },
+ "s08_plc": {
+  "file": "s08_plc.jpg",
+  "title": "File:S71500.JPG",
+  "source": "https://commons.wikimedia.org/wiki/File:S71500.JPG",
+  "author": "Palatinatian",
+  "license": "CC BY 3.0",
+  "width": 3301,
+  "height": 2476
+ },
+ "s10_atlas": {
+  "file": "s10_atlas.jpg",
+  "title": "File:Boston Dynamics Atlas (1).jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Boston_Dynamics_Atlas_(1).jpg",
+  "author": "Damian B Oh",
+  "license": "CC BY-SA 4.0",
+  "width": 2945,
+  "height": 3927
+ },
+ "s11_jetson": {
+  "file": "s11_jetson.jpg",
+  "title": "File:NVidia Jetson Orin AGX.png",
+  "source": "https://commons.wikimedia.org/wiki/File:NVidia_Jetson_Orin_AGX.png",
+  "author": "Auledas",
+  "license": "CC BY 4.0",
+  "width": 4642,
+  "height": 3510
+ }
+}

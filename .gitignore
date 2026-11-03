@@ -1,0 +1,22 @@
+# 빌드 의존성·중간 파일
+node_modules/
+__pycache__/
+*.pyc
+deck.pptx
+lecture3/src/crops/
+
+# 업로드 원본·백업 (저장소에 올리지 않음)
+uploads/
+**/backup_before_images/
+
+# PowerPoint 임시 파일, OS 파일
+~$*.pptx
+.DS_Store
+Thumbs.db
+
+# 강의 음성·영상 결과물 (용량이 커서 제외)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a

@@ -1,0 +1,74 @@
+{
+ "s01_robot_line": {
+  "file": "s01_robot_line.jpg",
+  "title": "File:BMW Leipzig MEDIA 050719 Download Karosseriebau max.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg",
+  "author": "BMW Werk Leipzig",
+  "license": "CC BY-SA 2.0 de",
+  "width": 1840,
+  "height": 1228
+ },
+ "s03_watt": {
+  "file": "s03_watt.jpg",
+  "title": "File:Maquina vapor Watt ETSIIM.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg",
+  "author": "Nicolás Pérez",
+  "license": "CC BY-SA 3.0",
+  "width": 1024,
+  "height": 760
+ },
+ "s03_ford": {
+  "file": "s03_ford.jpg",
+  "title": "File:Ford assembly line - 1913.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913.jpg",
+  "author": "작성자 미상",
+  "license": "Public domain",
+  "width": 3916,
+  "height": 2826
+ },
+ "s03_kuka": {
+  "file": "s03_kuka.jpg",
+  "title": "File:KUKA Industrial Robots IR.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:KUKA_Industrial_Robots_IR.jpg",
+  "author": "Mixabest",
+  "license": "CC BY-SA 3.0",
+  "width": 1492,
+  "height": 992
+ },
+ "s06_plc": {
+  "file": "s06_plc.jpg",
+  "title": "File:Simatic S7-1200.JPG",
+  "source": "https://commons.wikimedia.org/wiki/File:Simatic_S7-1200.JPG",
+  "author": "UlrichAAB",
+  "license": "CC BY-SA 3.0",
+  "width": 3410,
+  "height": 2430
+ },
+ "s09_cobot": {
+  "file": "s09_cobot.jpg",
+  "title": "File:UR16e robot arm.png",
+  "source": "https://commons.wikimedia.org/wiki/File:UR16e_robot_arm.png",
+  "author": "Auledas",
+  "license": "CC BY-SA 4.0",
+  "width": 8605,
+  "height": 6963
+ },
+ "s10_posco": {
+  "file": "s10_posco.jpg",
+  "title": "File:Pohang Korea ISS020-E-09011 lrg.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pohang_Korea_ISS020-E-09011_lrg.jpg",
+  "author": "Image courtesy of Earth Sciences and Image Analysis Laboratory, NASA Johnson Spa",
+  "license": "Public domain",
+  "width": 960,
+  "height": 1440
+ },
+ "s11_factory": {
+  "file": "s11_factory.jpg",
+  "title": "File:001 Car factory assembly line - Opel factory in Gliwice, Poland.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice,_Poland.jpg",
+  "author": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+  "license": "CC BY 3.0",
+  "width": 5076,
+  "height": 3383
+ }
+}

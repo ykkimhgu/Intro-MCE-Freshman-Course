@@ -1,0 +1,74 @@
+{
+ "s02_assembly_line": {
+  "file": "s02_assembly_line.jpg",
+  "title": "File:001 Car factory assembly line - Opel factory in Gliwice, Poland.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:001_Car_factory_assembly_line_-_Opel_factory_in_Gliwice,_Poland.jpg",
+  "author": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+  "license": "CC BY 3.0",
+  "width": 5076,
+  "height": 3383
+ },
+ "s04_motor_sensor": {
+  "file": "s04_motor_sensor.jpg",
+  "title": "File:AT1104 accelerometer (02).jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:AT1104_accelerometer_(02).jpg",
+  "author": "155LA3",
+  "license": "CC BY 4.0",
+  "width": 2609,
+  "height": 1739
+ },
+ "s05_bearing": {
+  "file": "s05_bearing.jpg",
+  "title": "File:Low-pressure turbine rotor from the Greifswald Nuclear Power Plant.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Low-pressure_turbine_rotor_from_the_Greifswald_Nuclear_Power_Plant.jpg",
+  "author": "Siarhei Besarab",
+  "license": "CC BY-SA 4.0",
+  "width": 3890,
+  "height": 2268
+ },
+ "s07_leap_engine": {
+  "file": "s07_leap_engine.jpg",
+  "title": "File:CFM LEAP-1B engine side view.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:CFM_LEAP-1B_engine_side_view.jpg",
+  "author": "Hugo LUC",
+  "license": "CC BY-SA 4.0",
+  "width": 3992,
+  "height": 2661
+ },
+ "s10_blast_furnace": {
+  "file": "s10_blast_furnace.jpg",
+  "title": "File:Pohang Korea ISS020-E-09011 lrg.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pohang_Korea_ISS020-E-09011_lrg.jpg",
+  "author": "NASA Johnson Space Center (ISS020-E-09011)",
+  "license": "Public domain",
+  "width": 960,
+  "height": 1440
+ },
+ "s11_wafer": {
+  "file": "s11_wafer.jpg",
+  "title": "File:Wafer 20110212.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Wafer_20110212.jpg",
+  "author": "Sangitiana Fararano",
+  "license": "CC BY-SA 2.0",
+  "width": 1535,
+  "height": 1157
+ },
+ "s12_distillation": {
+  "file": "s12_distillation.jpg",
+  "title": "File:Ultramar1 (cropped a lot).jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Ultramar1_(cropped_a_lot).jpg",
+  "author": "Cephas",
+  "license": "CC BY-SA 3.0",
+  "width": 965,
+  "height": 1369
+ },
+ "s13_cobot_welding": {
+  "file": "s13_cobot_welding.jpg",
+  "title": "File:FANUC 6-axis welding robots.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:FANUC_6-axis_welding_robots.jpg",
+  "author": "Phasmatisnox",
+  "license": "CC BY 3.0",
+  "width": 2048,
+  "height": 1536
+ }
+}

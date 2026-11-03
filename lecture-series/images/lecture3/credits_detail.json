@@ -1,0 +1,101 @@
+{
+ "s05_industrial_camera": {
+  "file": "s05_industrial_camera.jpg",
+  "title": "File:Industrial Line Scan Camera.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Industrial_Line_Scan_Camera.jpg",
+  "author": "Laserlicht",
+  "license": "CC BY-SA 4.0",
+  "width": 2632,
+  "height": 2632
+ },
+ "s05_conveyor": {
+  "file": "s05_conveyor.jpg",
+  "title": "File:Conveyor system in a factory.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Conveyor_system_in_a_factory.jpg",
+  "author": "falco",
+  "license": "CC0",
+  "width": 4000,
+  "height": 3000
+ },
+ "s06_pcb": {
+  "file": "s06_pcb.jpg",
+  "title": "File:SEG DVD 430 - Printed circuit board-4276.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:SEG_DVD_430_-_Printed_circuit_board-4276.jpg",
+  "author": "Raimond Spekking",
+  "license": "CC BY-SA 4.0",
+  "width": 4605,
+  "height": 3454
+ },
+ "s06_weld": {
+  "file": "s06_weld.jpg",
+  "title": "File:Roostevabaterase keevisõmblus.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Roostevabaterase_keevis%C3%B5mblus.jpg",
+  "author": "Tanel Eensoo",
+  "license": "CC BY-SA 3.0",
+  "width": 2279,
+  "height": 1520
+ },
+ "s06_crack": {
+  "file": "s06_crack.jpg",
+  "title": "File:Pedalarm Bruch.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pedalarm_Bruch.jpg",
+  "author": "Lokilech",
+  "license": "CC BY-SA 3.0",
+  "width": 2316,
+  "height": 2129
+ },
+ "s07_screws": {
+  "file": "s07_screws.jpg",
+  "title": "File:Schrauben, Muttern und Unterlegscheiben -- 2020 -- 4150.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Schrauben,_Muttern_und_Unterlegscheiben_--_2020_--_4150.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "width": 6720,
+  "height": 4480
+ },
+ "s11_spot": {
+  "file": "s11_spot.jpg",
+  "title": "File:Spot by Boston Dynamics.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Spot_by_Boston_Dynamics.jpg",
+  "author": "Jonte",
+  "license": "CC BY-SA 4.0",
+  "width": 6000,
+  "height": 4000
+ },
+ "s12_cylinder": {
+  "file": "s12_cylinder.jpg",
+  "title": "File:2008-07-24 Bundle of compressed gas bottles.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:2008-07-24_Bundle_of_compressed_gas_bottles.jpg",
+  "author": "Ildar Sagdejev (Specious)",
+  "license": "CC BY-SA 4.0",
+  "width": 2520,
+  "height": 3344
+ },
+ "s12_lg": {
+  "file": "s12_lg.jpg",
+  "title": "File:LG-Electronics-Poland-investment-plant.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:LG-Electronics-Poland-investment-plant.jpg",
+  "author": "Julo",
+  "license": "Public domain",
+  "width": 2048,
+  "height": 942
+ },
+ "s13_robot_pick": {
+  "file": "s13_robot_pick.jpg",
+  "title": "File:Collaborative-Palletizer-AAA20-RAAS-Universal Robot-2.png",
+  "source": "https://commons.wikimedia.org/wiki/File:Collaborative-Palletizer-AAA20-RAAS-Universal_Robot-2.png",
+  "author": "CollaborativePalletizer",
+  "license": "CC BY-SA 4.0",
+  "width": 1684,
+  "height": 1026
+ },
+ "s14_factory": {
+  "file": "s14_factory.jpg",
+  "title": "File:BMW Leipzig MEDIA 050719 Download Karosseriebau max.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg",
+  "author": "BMW Werk Leipzig",
+  "license": "CC BY-SA 2.0 de",
+  "width": 1840,
+  "height": 1228
+ }
+}
