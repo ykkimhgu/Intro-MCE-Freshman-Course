@@ -17,11 +17,11 @@ const META = DATA.META || { title: "복습 퀴즈", file: "3-4강_복습퀴즈" 
 const FONT = "맑은 고딕";
 const C = { dk: "1E2A32", or: "F28C28", te: "2A9D8F", gr: "5B6770", lt: "F2F4F5", wh: "FFFFFF", lg: "D5DADD" };
 const THEME = {
-  name: "제조 AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
+  name: "제조AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
   colors: { dk1: C.dk, lt1: C.wh, dk2: "2E3B44", lt2: C.lt, accent1: C.or, accent2: C.te, accent3: C.gr,
     accent4: "E9C46A", accent5: "264653", accent6: "8AB17D", hlink: C.te, folHlink: C.gr },
 };
-const LECTURE = `제조 AX 혁신과 공학진로 · 3·4강 ${META.title}`;
+const LECTURE = `제조AX 혁신과 공학진로 · 3·4강 ${META.title}`;
 const OUT_DIR = __ROOT + "/quiz34";
 const NUM = ["①", "②", "③", "④"];
 const ORD = ["첫", "두", "세", "네", "다섯", "여섯", "일곱", "여덟", "아홉", "열", "열한", "열두", "열세", "열네", "열다섯", "열여섯", "열일곱", "열여덟", "열아홉", "스무"];
