@@ -15,11 +15,11 @@ const NOTES = require("./notes.js");
 const FONT = "맑은 고딕";
 const C = { dk: "1E2A32", or: "F28C28", te: "2A9D8F", gr: "5B6770", lt: "F2F4F5", wh: "FFFFFF", lg: "D5DADD", red: "D1495B" };
 const THEME = {
-  name: "제조 AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
+  name: "제조AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
   colors: { dk1: C.dk, lt1: C.wh, dk2: "2E3B44", lt2: C.lt, accent1: C.or, accent2: C.te, accent3: C.gr,
     accent4: "E9C46A", accent5: "264653", accent6: "8AB17D", hlink: C.te, folHlink: C.gr },
 };
-const LECTURE = "제조 AX 혁신과 공학진로 · 3강";
+const LECTURE = "제조AX 혁신과 공학진로 · 3강";
 const P1 = "1부 · 품질검사의 기초", P2 = "2부 · AI 영상검사의 원리와 최신 기술", P3 = "3부 · 국내외 산업 사례", P4 = "4부 · 남은 과제와 전공";
 
 const IMG = __ROOT + "/lecture-series/images/lecture3/";
@@ -38,7 +38,7 @@ async function icon(Comp, color = "#FFFFFF") {
 (async () => {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_16x9";
-  pres.title = "제조 AX: 영상 기반 품질검사 사례";
+  pres.title = "제조AX: 영상 기반 품질검사 사례";
   pres.author = "김영근";
   pres.theme = { headFontFace: FONT, bodyFontFace: FONT };
 
@@ -117,7 +117,7 @@ async function icon(Comp, color = "#FFFFFF") {
     const ph = photo(s, "s01_mvtec_defects", 6.1, 0, 3.9, 5.625);
     if (ph) txt(s, "AI가 찾아낸 부품 불량 (주황 윤곽). 이미지: MVTec AD(Bergmann 외, CVPR 2019), CC BY-NC-SA 4.0, PatchCore(Roth 외, CVPR 2022)", { x: 0.6, y: 5.15, w: 5.3, h: 0.3, fontSize: 8, color: "9AA5AD" });
     txt(s, LECTURE, { x: 0.6, y: 0.9, w: 5.2, h: 0.3, fontSize: 12, bold: true, color: C.or });
-    txt(s, "제조 AX:\n영상 기반 품질검사 사례", { x: 0.6, y: 1.3, w: 5.3, h: 1.6, fontSize: 34, bold: true, color: C.wh, valign: "middle" });
+    txt(s, "제조AX:\n영상 기반 품질검사 사례", { x: 0.6, y: 1.3, w: 5.3, h: 1.6, fontSize: 34, bold: true, color: C.wh, valign: "middle" });
     txt(s, "공장에 눈을 달아 주는 기술", { x: 0.6, y: 3.0, w: 5.2, h: 0.4, fontSize: 16, color: "C9D1D6" });
     const flow = [[I.camera, "카메라가 찍고"], [I.brain, "AI가 찾고"], [I.robot, "기계가 골라낸다"]];
     flow.forEach(([img, t], i) => {
@@ -450,7 +450,7 @@ async function icon(Comp, color = "#FFFFFF") {
     txt(s, "다음 강의", { x: 0.6, y: 3.55, w: 4, h: 0.3, fontSize: 12, bold: true, color: C.or });
     s.addShape(pres.shapes.RECTANGLE, { x: 0.6, y: 3.92, w: 5.6, h: 0.9, fill: { color: "2E3B44" }, line: { color: "2E3B44" } });
     txt(s, "4강", { x: 0.78, y: 4.0, w: 1, h: 0.3, fontSize: 13, bold: true, color: C.or });
-    txt(s, "제조 AX: 고장 진단 · 예측과 공정 최적화 사례", { x: 0.78, y: 4.32, w: 5.3, h: 0.4, fontSize: 13, color: C.wh });
+    txt(s, "제조AX: 고장 진단 · 예측과 공정 최적화 사례", { x: 0.78, y: 4.32, w: 5.3, h: 0.4, fontSize: 13, color: C.wh });
     txt(s, LECTURE, { x: 0.6, y: 5.15, w: 5, h: 0.25, fontSize: 9, color: "9AA5AD" });
     s.addNotes(NOTES[13]);
   }

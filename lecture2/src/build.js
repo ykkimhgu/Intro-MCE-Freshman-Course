@@ -9,7 +9,7 @@ const NOTES = require("./notes.js");
 // 시리즈 공통 스타일: <저장소>/lecture-series/style.md
 const C = { ink: "1E2A32", orange: "F28C28", teal: "2A9D8F", gray: "5B6770", card: "F2F4F5", white: "FFFFFF", light: "C9D1D6" };
 const FONT = "Malgun Gothic";
-const FOOT = "제조 AX 혁신과 공학진로 · 2강 제조AX·AI팩토리 기술 동향";
+const FOOT = "제조AX 혁신과 공학진로 · 2강 제조AX·AI팩토리 기술 동향";
 
 async function icon(Comp, color = "FFFFFF", size = 256) {
   const svg = ReactDOMServer.renderToStaticMarkup(React.createElement(Comp, { color: "#" + color, size: String(size) }));
@@ -74,9 +74,9 @@ async function icon(Comp, color = "FFFFFF", size = 256) {
   // 1 표지
   {
     const s = slide("DARK");
-    s.addText("제조 AX 혁신과 공학진로 · 2강", T({ x: 0.6, y: 1.05, w: 5.5, h: 0.35, fontSize: 16, bold: true, color: C.orange }));
-    s.addText("제조 AX와 AI 팩토리,\n지금 어디까지 왔나", T({ x: 0.6, y: 1.5, w: 6, h: 1.6, fontSize: 36, bold: true, color: C.white }));
-    s.addText("2026년 제조 AX·AI 팩토리 핵심 기술 동향", T({ x: 0.6, y: 3.2, w: 6, h: 0.4, fontSize: 16, color: C.light }));
+    s.addText("제조AX 혁신과 공학진로 · 2강", T({ x: 0.6, y: 1.05, w: 5.5, h: 0.35, fontSize: 16, bold: true, color: C.orange }));
+    s.addText("제조AX와 AI 팩토리,\n지금 어디까지 왔나", T({ x: 0.6, y: 1.5, w: 6, h: 1.6, fontSize: 36, bold: true, color: C.white }));
+    s.addText("2026년 제조AX·AI 팩토리 핵심 기술 동향", T({ x: 0.6, y: 3.2, w: 6, h: 0.4, fontSize: 16, color: C.light }));
     s.addText("한동대학교 기계제어공학부  김영근 교수", T({ x: 0.6, y: 4.5, w: 6, h: 0.35, fontSize: 13, color: C.light }));
     iconCircle(s, I.robot, 6.9, 1.35, 2.4);
   }
@@ -107,7 +107,7 @@ async function icon(Comp, color = "FFFFFF", size = 256) {
   // 3 세 가지 힘
   {
     const s = slide("CONTENT");
-    header(s, "1부 · 왜 지금 제조 AX인가", "제조 AX를 밀어붙이는 세 가지 힘");
+    header(s, "1부 · 왜 지금 제조AX인가", "제조AX를 밀어붙이는 세 가지 힘");
     const cols = [
       [I.userClock, "사람", ["빠른 고령화, 일할 사람 감소", "숙련공 은퇴로 노하우 단절 위기"]],
       [I.globe, "경쟁", ["중국의 대규모 자동화 투자", "미국·유럽의 공장 회귀, 인건비를 AI·로봇으로 해결"]],
@@ -126,7 +126,7 @@ async function icon(Comp, color = "FFFFFF", size = 256) {
   // 4 숫자로 보는 효과
   {
     const s = slide("CONTENT");
-    header(s, "1부 · 왜 지금 제조 AX인가", "숫자로 보는 제조 AX의 효과");
+    header(s, "1부 · 왜 지금 제조AX인가", "숫자로 보는 제조AX의 효과");
     card(s, 0.5, 1.1, 5.0, 3.65);
     s.addText("국내 M.AX 성과 확인 현장 42곳 평균", T({ x: 0.75, y: 1.3, w: 4.5, h: 0.35, fontSize: 14, bold: true, color: C.gray }));
     s.addText("+30%", T({ x: 0.75, y: 1.75, w: 2.2, h: 0.85, fontSize: 40, bold: true, color: C.orange, valign: "middle" }));
@@ -152,7 +152,7 @@ async function icon(Comp, color = "FFFFFF", size = 256) {
   // 5 스마트공장 → 지능화
   {
     const s = slide("CONTENT");
-    header(s, "1부 · 왜 지금 제조 AX인가", "스마트공장 3만 개, 그런데 왜 다시 '지능화'인가");
+    header(s, "1부 · 왜 지금 제조AX인가", "스마트공장 3만 개, 그런데 왜 다시 '지능화'인가");
     card(s, 0.5, 1.1, 4.3, 3.65);
     s.addText("성과", T({ x: 0.75, y: 1.28, w: 3.8, h: 0.3, fontSize: 13, bold: true, color: C.teal }));
     s.addText("31,782개", T({ x: 0.75, y: 1.58, w: 3.8, h: 0.65, fontSize: 32, bold: true, color: C.orange, valign: "middle" }));
@@ -459,15 +459,15 @@ async function icon(Comp, color = "FFFFFF", size = 256) {
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 3.75, w: 8.8, h: 1.15, fill: { color: "2B3A44" }, line: { type: "none" }, rectRadius: 0.08 });
     s.addText("다음 강의", T({ x: 0.85, y: 3.88, w: 3, h: 0.3, fontSize: 12, bold: true, color: C.orange }));
     s.addText([
-      { text: "3강  제조 AX: 영상 기반 품질검사 사례", options: { breakLine: true } },
-      { text: "4강  제조 AX: 고장 진단/예측 및 공정 최적화 사례" },
+      { text: "3강  제조AX: 영상 기반 품질검사 사례", options: { breakLine: true } },
+      { text: "4강  제조AX: 고장 진단/예측 및 공정 최적화 사례" },
     ], T({ x: 0.85, y: 4.2, w: 8.3, h: 0.65, fontSize: 15, color: C.white, bold: true, paraSpaceAfter: 2 }));
   }
 
   const out = process.env.OUT || __ROOT + "/lecture2/2강_제조AX_AI팩토리_기술동향.pptx";
   require("fs").mkdirSync(__ROOT + "/lecture2", { recursive: true });
   await pres.writeFile({ fileName: "deck.pptx" });
-  await require(require("path").join(__dirname, "../../tools/repo.js")).applyTheme("deck.pptx", { name: "제조 AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT, colors: { dk1: "1E2A32", lt1: "FFFFFF", dk2: "5B6770", lt2: "F2F4F5", accent1: "F28C28", accent2: "2A9D8F", accent3: "5B6770", accent4: "3D5A6C", accent5: "E9C46A", accent6: "8FA6B8", hlink: "2A9D8F", folHlink: "5B6770" } });
+  await require(require("path").join(__dirname, "../../tools/repo.js")).applyTheme("deck.pptx", { name: "제조AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT, colors: { dk1: "1E2A32", lt1: "FFFFFF", dk2: "5B6770", lt2: "F2F4F5", accent1: "F28C28", accent2: "2A9D8F", accent3: "5B6770", accent4: "3D5A6C", accent5: "E9C46A", accent6: "8FA6B8", hlink: "2A9D8F", folHlink: "5B6770" } });
   require("fs").copyFileSync("deck.pptx", out);
   console.log("ok", n);
 })();

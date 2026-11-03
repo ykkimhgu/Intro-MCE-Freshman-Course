@@ -14,7 +14,7 @@ const THEME = {
   colors: { dk1: C.dk, lt1: C.wh, dk2: "2E3B44", lt2: C.lt, accent1: C.or, accent2: C.te, accent3: C.gr,
     accent4: "E9C46A", accent5: "264653", accent6: "8AB17D", hlink: C.te, folHlink: C.gr },
 };
-const LECTURE = "제조 AX 혁신과 공학진로 · 1강";
+const LECTURE = "제조AX 혁신과 공학진로 · 1강";
 
 async function icon(Comp, color = "#FFFFFF") {
   const svg = ReactDOMServer.renderToStaticMarkup(React.createElement(Comp, { color, size: 256 }));
@@ -25,7 +25,7 @@ async function icon(Comp, color = "#FFFFFF") {
 (async () => {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_16x9";
-  pres.title = "스마트팩토리에서 제조 AX로";
+  pres.title = "스마트팩토리에서 제조AX로";
   pres.author = "김영근";
   pres.theme = { headFontFace: FONT, bodyFontFace: FONT };
 
@@ -104,10 +104,10 @@ async function icon(Comp, color = "#FFFFFF") {
       txt(s, "사진: " + credit("s01_robot_line") + ", Wikimedia Commons", { x: 0.6, y: 5.25, w: 8.8, h: 0.22, fontSize: 8, color: "9AA5AD" });
     }
     txt(s, LECTURE, { x: 0.6, y: 0.9, w: 5.5, h: 0.3, fontSize: 12, bold: true, color: C.or });
-    txt(s, "스마트팩토리에서\n제조 AX로", { x: 0.6, y: 1.3, w: 5.4, h: 1.6, fontSize: 40, bold: true, color: C.wh, valign: "middle" });
+    txt(s, "스마트팩토리에서\n제조AX로", { x: 0.6, y: 1.3, w: 5.4, h: 1.6, fontSize: 40, bold: true, color: C.wh, valign: "middle" });
     txt(s, "자동화에서 지능화로, 공장이 스스로 판단하는 시대", { x: 0.6, y: 3.0, w: 5.4, h: 0.4, fontSize: 15, color: "C9D1D6" });
     txt(s, "한동대학교 기계제어공학부 김영근 교수", { x: 0.6, y: 4.4, w: 5.6, h: 0.35, fontSize: 14, bold: true, color: C.wh });
-    const items = ["공장은 왜 바뀌고 있나", "스마트팩토리의 구조", "제조 AX와 국내외 사례", "전공과 진로"];
+    const items = ["공장은 왜 바뀌고 있나", "스마트팩토리의 구조", "제조AX와 국내외 사례", "전공과 진로"];
     items.forEach((t, i) => {
       const y = 1.35 + i * 0.75;
       s.addShape(pres.shapes.OVAL, { x: 6.5, y, w: 0.5, h: 0.5, fill: { color: C.or }, line: { color: C.or } });
@@ -201,7 +201,7 @@ async function icon(Comp, color = "#FFFFFF") {
 
   // 5. Layers
   {
-    const s = content("2부 · 스마트팩토리의 구조와 제조 AX", "스마트팩토리의 계층 구조");
+    const s = content("2부 · 스마트팩토리의 구조와 제조AX", "스마트팩토리의 계층 구조");
     const layers = [
       ["경영", "ERP · SCM · PLM", "자재, 공급망, 주문 관리", "2E3B44"],
       ["운영", "MES · SCADA", "작업 지시, 실적·품질 이력", "44535D"],
@@ -225,7 +225,7 @@ async function icon(Comp, color = "#FFFFFF") {
 
   // 6. Six technologies
   {
-    const s = content("2부 · 스마트팩토리의 구조와 제조 AX", "스마트팩토리를 만드는 여섯 가지 기술");
+    const s = content("2부 · 스마트팩토리의 구조와 제조AX", "스마트팩토리를 만드는 여섯 가지 기술");
     const techs = [
       [I.wifi, "산업 IoT · 센서", "진동·온도·전류·영상으로 상태 측정", "계측, 신호처리"],
       [I.sliders, "제어 · 자동화", "PLC·모션 제어로 정밀 구동", "자동제어, 메카트로닉스"],
@@ -247,7 +247,7 @@ async function icon(Comp, color = "#FFFFFF") {
 
   // 7. Levels
   {
-    const s = content("2부 · 스마트팩토리의 구조와 제조 AX", "스마트공장 3만 개, 그러나 75%는 기초 단계");
+    const s = content("2부 · 스마트팩토리의 구조와 제조AX", "스마트공장 3만 개, 그러나 75%는 기초 단계");
     const steps = [["기초", "생산정보 디지털화"], ["중간 1", "실시간 수집·분석"], ["중간 2", "공정 실시간 제어"], ["고도화", "맞춤형 유연생산"]];
     steps.forEach(([h, d], i) => {
       const x = 0.5 + i * 1.42, hgt = 0.9 + i * 0.55, y = 4.45 - hgt;
@@ -273,7 +273,7 @@ async function icon(Comp, color = "#FFFFFF") {
 
   // 8. DX vs AX
   {
-    const s = content("2부 · 스마트팩토리의 구조와 제조 AX", "제조 AX: 보이게 하는 것에서 스스로 판단하게 하는 것으로");
+    const s = content("2부 · 스마트팩토리의 구조와 제조AX", "제조AX: 보이게 하는 것에서 스스로 판단하게 하는 것으로");
     const rows = [["목표", "데이터 수집 · 연결 · 가시화", "예측 · 최적화 · 자율 실행"], ["판단 주체", "사람이 대시보드를 보고 판단", "AI가 제안하거나 직접 제어"], ["대표 기술", "MES, IoT, 클라우드", "머신러닝, 비전 AI, 생성형 AI, 피지컬 AI"]];
     card(s, 0.5, 1.25, 4.3, 2.45);
     card(s, 5.2, 1.25, 4.3, 2.45, "FDEBDD");
@@ -411,7 +411,7 @@ async function icon(Comp, color = "#FFFFFF") {
       txt(s, t, { x: 1.15, y, w: 8.2, h: 0.55, fontSize: 16, bold: i === 2, color: C.wh, valign: "middle" });
     });
     txt(s, "다음 강의", { x: 0.6, y: 3.45, w: 4, h: 0.3, fontSize: 12, bold: true, color: C.or });
-    const nx = [["2강", "제조 AX · AI 팩토리 기술 동향"], ["3강", "영상 기반 품질 검사 사례"], ["4강", "고장 진단 · 예측과 공정 최적화"]];
+    const nx = [["2강", "제조AX · AI 팩토리 기술 동향"], ["3강", "영상 기반 품질 검사 사례"], ["4강", "고장 진단 · 예측과 공정 최적화"]];
     nx.forEach(([l, t], i) => {
       const x = 0.6 + i * 3.0;
       s.addShape(pres.shapes.RECTANGLE, { x, y: 3.85, w: 2.8, h: 0.9, fill: { color: "2E3B44" }, line: { color: "2E3B44" } });

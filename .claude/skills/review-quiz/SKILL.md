@@ -1,6 +1,6 @@
 ---
 name: review-quiz
-description: 제조 AX 강의 시리즈의 복습퀴즈(4지선다·OX) PPT, TTS 대본, 문항·정답 목록을 만들거나 고칠 때 사용
+description: 제조AX 강의 시리즈의 복습퀴즈(4지선다·OX) PPT, TTS 대본, 문항·정답 목록을 만들거나 고칠 때 사용
 ---
 
 # 복습퀴즈 만들기

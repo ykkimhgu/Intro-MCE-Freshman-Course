@@ -17,11 +17,11 @@ const META = DATA.META || { title: "기초 복습 퀴즈", file: "1-2강_기초�
 const FONT = "맑은 고딕";
 const C = { dk: "1E2A32", or: "F28C28", te: "2A9D8F", gr: "5B6770", lt: "F2F4F5", wh: "FFFFFF", lg: "D5DADD" };
 const THEME = {
-  name: "제조 AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
+  name: "제조AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
   colors: { dk1: C.dk, lt1: C.wh, dk2: "2E3B44", lt2: C.lt, accent1: C.or, accent2: C.te, accent3: C.gr,
     accent4: "E9C46A", accent5: "264653", accent6: "8AB17D", hlink: C.te, folHlink: C.gr },
 };
-const LECTURE = `제조 AX 혁신과 공학진로 · 1·2강 ${META.title}`;
+const LECTURE = `제조AX 혁신과 공학진로 · 1·2강 ${META.title}`;
 const OUT_DIR = __ROOT + "/quiz12";
 const NUM = ["①", "②", "③", "④"];
 const ORD = ["첫", "두", "세", "네", "다섯", "여섯", "일곱", "여덟", "아홉", "열", "열한", "열두", "열세", "열네", "열다섯", "열여섯", "열일곱", "열여덟", "열아홉", "스무"];
@@ -80,7 +80,7 @@ async function icon(Comp, color = "#FFFFFF") {
     s.addText(title, { placeholder: "title" });
     return s;
   };
-  const label = (q) => (q.lec === 1 ? "1강 퀴즈 · 스마트팩토리에서 제조 AX로" : "2강 퀴즈 · 제조 AX와 AI 팩토리, 지금 어디까지 왔나");
+  const label = (q) => (q.lec === 1 ? "1강 퀴즈 · 스마트팩토리에서 제조AX로" : "2강 퀴즈 · 제조AX와 AI 팩토리, 지금 어디까지 왔나");
 
   const narr = []; // 슬라이드 순서대로 낭독문 (TTS 파일용)
   const notes = (s, t) => { s.addNotes(t); narr.push(t); };
@@ -90,7 +90,7 @@ async function icon(Comp, color = "#FFFFFF") {
     const s = pres.addSlide({ masterName: "DARK" });
     txt(s, LECTURE, { x: 0.6, y: 0.9, w: 5.5, h: 0.3, fontSize: 12, bold: true, color: C.or });
     txt(s, `1·2강\n${META.title}`, { x: 0.6, y: 1.3, w: 5.4, h: 1.6, fontSize: 40, bold: true, color: C.wh, valign: "middle" });
-    txt(s, "스마트팩토리에서 제조 AX로 · AI 팩토리, 지금 어디까지 왔나", { x: 0.6, y: 3.0, w: 5.6, h: 0.4, fontSize: 15, color: "C9D1D6" });
+    txt(s, "스마트팩토리에서 제조AX로 · AI 팩토리, 지금 어디까지 왔나", { x: 0.6, y: 3.0, w: 5.6, h: 0.4, fontSize: 15, color: "C9D1D6" });
     txt(s, "한동대학교 기계제어공학부 김영근 교수", { x: 0.6, y: 4.4, w: 5.5, h: 0.35, fontSize: 14, bold: true, color: C.wh });
     const items = [[I.cogs, `1강 ${N3}문제`], [I.robot, `2강 ${Q.length - N3}문제`], [I.question, "4지선다와 O/X 문제"], [I.book, "해설에 복습할 강의 장면 표시"]];
     items.forEach(([img, t], i) => {
@@ -191,8 +191,8 @@ async function icon(Comp, color = "#FFFFFF") {
   let md = `# 1·2강 ${META.title} 문항과 정답\n\n문제 슬라이드 다음에 정답·해설 슬라이드가 이어집니다.
 `;
   Q.forEach((q, i) => {
-    if (i === 0) md += `\n## 1강 · 스마트팩토리에서 제조 AX로\n`;
-    if (i === N3) md += `\n## 2강 · 제조 AX와 AI 팩토리, 지금 어디까지 왔나\n`;
+    if (i === 0) md += `\n## 1강 · 스마트팩토리에서 제조AX로\n`;
+    if (i === N3) md += `\n## 2강 · 제조AX와 AI 팩토리, 지금 어디까지 왔나\n`;
     md += `\n**${i + 1}. ${q.q}**${q.type === "ox" ? " (O/X)" : ""}\n\n`;
     if (q.type === "mc") md += q.opts.map((o, k) => `${NUM[k]} ${o}`).join("  \n") + "\n\n";
     md += `정답: ${q.type === "ox" ? q.opts[q.ans] : NUM[q.ans] + " " + q.opts[q.ans]}  \n해설: ${q.expl.join(" / ")}  \n복습: ${q.ref}\n`;

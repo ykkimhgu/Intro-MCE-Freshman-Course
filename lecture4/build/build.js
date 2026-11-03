@@ -15,11 +15,11 @@ const NOTES = require("./notes.js");
 const FONT = "맑은 고딕";
 const C = { dk: "1E2A32", or: "F28C28", te: "2A9D8F", gr: "5B6770", lt: "F2F4F5", wh: "FFFFFF", lg: "D5DADD" };
 const THEME = {
-  name: "제조 AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
+  name: "제조AX 혁신과 공학진로", headFontFace: FONT, bodyFontFace: FONT,
   colors: { dk1: C.dk, lt1: C.wh, dk2: "2E3B44", lt2: C.lt, accent1: C.or, accent2: C.te, accent3: C.gr,
     accent4: "E9C46A", accent5: "264653", accent6: "8AB17D", hlink: C.te, folHlink: C.gr },
 };
-const LECTURE = "제조 AX 혁신과 공학진로 · 4강";
+const LECTURE = "제조AX 혁신과 공학진로 · 4강";
 const IMG_DIR = __ROOT + "/lecture-series/images/lecture4";
 // credits.json: {key: "사진: ..."} 또는 {key: {credit|credit_line: ...}} 또는 [{file|key, credit|credit_line}]
 const CREDITS = (() => {
@@ -78,7 +78,7 @@ function vibrationSvgs() {
 (async () => {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_16x9";
-  pres.title = "제조 AX: 고장 진단·예측과 공정 최적화";
+  pres.title = "제조AX: 고장 진단·예측과 공정 최적화";
   pres.author = "김영근";
   pres.theme = { headFontFace: FONT, bodyFontFace: FONT };
 
@@ -163,7 +163,7 @@ function vibrationSvgs() {
   {
     const s = pres.addSlide({ masterName: "DARK" });
     txt(s, LECTURE, { x: 0.6, y: 0.9, w: 5.5, h: 0.3, fontSize: 12, bold: true, color: C.or });
-    txt(s, "제조 AX:\n고장 진단·예측과\n공정 최적화", { x: 0.6, y: 1.3, w: 5.6, h: 1.9, fontSize: 36, bold: true, color: C.wh, valign: "middle" });
+    txt(s, "제조AX:\n고장 진단·예측과\n공정 최적화", { x: 0.6, y: 1.3, w: 5.6, h: 1.9, fontSize: 36, bold: true, color: C.wh, valign: "middle" });
     txt(s, "설비가 아프기 전에 알고, 공정이 스스로 최적을 찾는다", { x: 0.6, y: 3.3, w: 5.6, h: 0.4, fontSize: 15, color: "C9D1D6" });
     txt(s, "한동대학교 기계제어공학부 김영근 교수", { x: 0.6, y: 4.4, w: 5.5, h: 0.35, fontSize: 14, bold: true, color: C.wh });
     const items = ["멈춤의 비용과 정비 전략", "고장 진단·예측의 원리", "예지보전 산업 사례", "공정 최적화 원리와 사례"];
@@ -479,7 +479,7 @@ function vibrationSvgs() {
       txt(s, "→  " + a, { x: 4.2, y, w: 5.1, h: 0.42, fontSize: 13, bold: true, color: i === 4 ? C.or : C.wh, valign: "middle" });
     });
     txt(s, "기계를 이해하고 데이터로 판단할 줄 아는 엔지니어", { x: 0.6, y: 4.2, w: 8.8, h: 0.45, fontSize: 18, bold: true, color: C.or });
-    txt(s, "제조 AX 시리즈 4강을 마칩니다. 감사합니다.", { x: 0.6, y: 4.68, w: 8.8, h: 0.35, fontSize: 13, color: C.wh });
+    txt(s, "제조AX 시리즈 4강을 마칩니다. 감사합니다.", { x: 0.6, y: 4.68, w: 8.8, h: 0.35, fontSize: 13, color: C.wh });
     txt(s, LECTURE, { x: 0.6, y: 5.15, w: 5, h: 0.25, fontSize: 9, color: "9AA5AD" });
     s.addNotes(NOTES[13]);
   }
