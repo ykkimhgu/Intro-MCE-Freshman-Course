@@ -1,0 +1,20 @@
+{
+  "quiz12": {
+    "data": "quiz12/build/quiz_data_basic.js",
+    "title": "1·2강 기초 복습 퀴즈",
+    "video": { "youtube": "", "mp4": "" },
+    "pauses": []
+  },
+  "quiz34": {
+    "data": "quiz34/build/quiz_data.js",
+    "title": "3·4강 복습 퀴즈",
+    "video": { "youtube": "", "mp4": "" },
+    "pauses": []
+  },
+  "quiz34-basic": {
+    "data": "quiz34/build/quiz_data_basic.js",
+    "title": "3·4강 기초 복습 퀴즈",
+    "video": { "youtube": "", "mp4": "" },
+    "pauses": []
+  }
+}

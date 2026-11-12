@@ -27,6 +27,7 @@ npm run build:2        # 1·2·3·4, quiz12, quiz34, quiz34-basic
 - `tools/repo.js`의 `applyTheme`가 pptx 테마 색을 시리즈 색으로 바꿔 씁니다.
 - 1·2·3강은 `OUT=경로` 환경변수로 출력 위치를 바꿀 수 있습니다. 4강과 퀴즈는 저장소 안의 결과 파일을 덮어씁니다.
 - 1강 영상클립 버전: `python3 lecture1/src/add_clips.py 원본.pptx 결과.pptx lecture1/src/clips.json` (썸네일 클릭 시 YouTube 10초 구간 재생).
+- 인터랙티브 퀴즈 플레이어(`docs/quiz/`, GitHub Pages): `npm run build:player`로 퀴즈 데이터를 `docs/quiz/data/`에 반영. 영상 주소와 문항별 멈춤 시점은 `tools/quiz_player_config.json`, 시점 자동 찾기는 `npm run player:pauses -- quiz12 영상.mp4`. 자세한 사용법은 `docs/quiz/README.md`.
 - 빌드 후에는 슬라이드를 이미지로 렌더링해서 글자 넘침·겹침을 눈으로 확인합니다 (LibreOffice: `soffice --headless --convert-to pdf`).
 
 ## 관련 스킬
