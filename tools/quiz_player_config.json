@@ -1,0 +1,45 @@
+{
+  "quiz12": {
+    "data": "quiz12/build/quiz_data_basic.js",
+    "title": "1·2강 기초 복습 퀴즈",
+    "video": {
+      "youtube": "",
+      "mp4": ""
+    },
+    "pauses": [
+      74.4,
+      111.6,
+      152.4,
+      197,
+      242.4,
+      288.8,
+      343,
+      400.2,
+      448.8,
+      495.6,
+      548.2,
+      598.2,
+      643.6,
+      698.8,
+      737.8
+    ]
+  },
+  "quiz34": {
+    "data": "quiz34/build/quiz_data.js",
+    "title": "3·4강 복습 퀴즈",
+    "video": {
+      "youtube": "",
+      "mp4": ""
+    },
+    "pauses": []
+  },
+  "quiz34-basic": {
+    "data": "quiz34/build/quiz_data_basic.js",
+    "title": "3·4강 기초 복습 퀴즈",
+    "video": {
+      "youtube": "",
+      "mp4": ""
+    },
+    "pauses": []
+  }
+}

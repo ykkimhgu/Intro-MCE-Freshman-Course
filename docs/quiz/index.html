@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>복습 퀴즈 플레이어</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="course">제조AX 혁신과 공학진로 · 한동대학교 기계제어공학부</div>
+    <h1 id="title">복습 퀴즈</h1>
+    <div class="status">
+      <div class="bar" aria-hidden="true"><span id="bar-fill"></span></div>
+      <div class="counts"><span id="done">0</span> / <span id="total">0</span> 문항 · 정답 <b id="score">0</b></div>
+    </div>
+  </header>
+
+  <section class="stage" id="stage">
+    <div class="video" id="video-box"></div>
+    <div class="dots" id="dots" aria-label="문항 진행"></div>
+  </section>
+
+  <section class="panel" id="panel" hidden aria-live="polite">
+    <div class="q-head"><span class="q-tag" id="q-tag"></span><span class="q-lec" id="q-lec"></span></div>
+    <p class="q-text" id="q-text"></p>
+    <div class="opts" id="opts"></div>
+    <div class="feedback" id="feedback" hidden>
+      <div class="verdict" id="verdict"></div>
+      <ul class="expl" id="expl"></ul>
+      <div class="ref" id="ref"></div>
+      <div class="actions">
+        <button class="btn primary" id="next"></button>
+      </div>
+    </div>
+    <div class="skip-row" id="skip-row"><button class="link" id="skip">이 문제 건너뛰기</button></div>
+  </section>
+
+  <section class="panel result" id="result" hidden>
+    <h2 id="result-title"></h2>
+    <p class="result-sub" id="result-sub"></p>
+    <ul class="summary" id="summary"></ul>
+    <h3 id="wrong-title">다시 볼 문제</h3>
+    <ul class="wrong" id="wrong"></ul>
+    <div class="submit">
+      <label for="who">학번과 이름</label>
+      <input id="who" placeholder="예: 22600123 홍길동" autocomplete="name">
+      <div class="actions">
+        <button class="btn primary" id="copy">결과 복사</button>
+        <button class="btn" id="again">처음부터 다시 풀기</button>
+      </div>
+      <p class="hint" id="copy-hint">복사한 결과를 LearningX 게시판이나 과제에 붙여 넣으세요.</p>
+    </div>
+  </section>
+
+  <section class="panel setup" id="setup" hidden>
+    <h2>멈춤 시점 설정 (교수자용)</h2>
+    <p>영상을 재생하다가 각 <b>문제 슬라이드의 낭독이 끝나는 순간</b>(정답 슬라이드로 넘어가기 직전)에 아래 버튼을 누르세요. 다 끝나면 결과를 복사해서 보내 주시거나 <code>tools/quiz_player_config.json</code>의 <code>pauses</code>에 붙여 넣으면 됩니다.</p>
+    <div class="actions">
+      <button class="btn primary" id="mark"></button>
+      <button class="btn" id="unmark">마지막 표시 취소</button>
+      <button class="btn" id="copy-pauses">결과 복사</button>
+    </div>
+    <pre id="pauses-out"></pre>
+  </section>
+
+  <footer class="foot">영상이 문항마다 멈추면 답을 고르세요. 숫자 키 1~4, O·X 키로도 고를 수 있습니다.</footer>
+</div>
+<script src="player.js"></script>
+</body>
+</html>

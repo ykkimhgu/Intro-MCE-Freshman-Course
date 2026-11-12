@@ -9,7 +9,9 @@
     "build:4": "node lecture4/build/build.js",
     "build:quiz12": "node quiz12/build/build_quiz.js quiz_data_basic.js",
     "build:quiz34": "node quiz34/build/build_quiz.js quiz_data.js",
-    "build:quiz34-basic": "node quiz34/build/build_quiz.js quiz_data_basic.js"
+    "build:quiz34-basic": "node quiz34/build/build_quiz.js quiz_data_basic.js",
+    "build:player": "node tools/build_quiz_player.js",
+    "player:pauses": "node tools/quiz_find_pauses.js"
   },
   "dependencies": {
     "pptxgenjs": "^4.0.1",
