@@ -19,6 +19,6 @@ description: 제조AX 강의 시리즈의 복습퀴즈(4지선다·OX) PPT, TTS 
 
 ## 빌드
 ```bash
-npm run build:quiz34         # 또는 build:quiz34-basic, build:quiz12
+npm run build:quiz34-basic   # 또는 build:quiz12
 ```
 PPT, `*_대본_TTS용.txt`, `*_문항과정답.md`가 퀴즈 폴더에 함께 생성됩니다. 새 퀴즈는 폴더를 복사하고 `build_quiz.js`의 `OUT_DIR`, `LECTURE`, 서수 문장(`lead`)을 맞춘 뒤 `package.json`에 스크립트를 추가합니다.

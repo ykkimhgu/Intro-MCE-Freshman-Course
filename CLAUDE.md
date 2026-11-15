@@ -8,7 +8,7 @@
 - 2강 제조AX·AI 팩토리 기술동향 (`lecture2/src/`)
 - 3강 영상기반 품질검사 사례 (`lecture3/src/`)
 - 4강 고장진단·예측과 공정최적화 (`lecture4/build/`)
-- 복습퀴즈: `quiz12/`(1–2강 기초), `quiz34/`(3–4강 일반·기초)
+- 복습퀴즈: `quiz12/`(1–2강 기초), `quiz34/`(3–4강 기초)
 
 ## 반드시 지킬 것
 - 스타일은 `lecture-series/style.md`가 기준입니다 (`series-style/`는 폐기된 제안).
@@ -21,7 +21,7 @@
 ## 빌드
 ```bash
 npm install            # 저장소 루트에서 한 번
-npm run build:2        # 1·2·3·4, quiz12, quiz34, quiz34-basic
+npm run build:2        # 1·2·3·4, quiz12, quiz34-basic
 ```
 - 스크립트의 경로는 `tools/repo.js`의 `ROOT`(저장소 루트) 기준입니다. 절대경로를 새로 넣지 마세요.
 - `tools/repo.js`의 `applyTheme`가 pptx 테마 색을 시리즈 색으로 바꿔 씁니다.

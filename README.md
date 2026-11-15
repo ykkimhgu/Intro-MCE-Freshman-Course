@@ -14,7 +14,7 @@
 | `lecture3/` | 3강 영상기반 품질검사 사례 |
 | `lecture4/` | 4강 고장진단·예측과 공정최적화 |
 | `quiz12/` | 1–2강 기초 복습퀴즈 |
-| `quiz34/` | 3–4강 복습퀴즈 (기초/일반) |
+| `quiz34/` | 3–4강 기초 복습퀴즈 |
 | `lecture-series/` | 시리즈 공통 스타일(`style.md`), 강의별 사진(`images/`)·사례영상 썸네일(`thumbnails/`), 사례영상 목록 |
 | `series-style/` | 폐기된 이전 스타일 제안 (참고용) |
 | `tools/` | 빌드 공통 도우미 (저장소 경로, 테마 색 적용) |
@@ -25,7 +25,7 @@
 
 ```bash
 npm install          # 저장소 루트에서 한 번
-npm run build:2      # build:1~4, build:quiz12, build:quiz34, build:quiz34-basic
+npm run build:2      # build:1~4, build:quiz12, build:quiz34-basic
 ```
 
 ## 다른 컴퓨터에서 Claude로 이어서 작업하기

@@ -1,5 +1,5 @@
 // 인터랙티브 복습 퀴즈 플레이어
-// 주소: index.html?set=quiz12  (quiz12 | quiz34 | quiz34-basic)
+// 주소: index.html?set=quiz12  (quiz12 | quiz34-basic)
 //   &setup=1      교수자용 멈춤 시점 설정 화면
 //   &yt=영상ID    YouTube 영상을 임시로 지정 (설정 파일보다 우선)
 //   &mp4=주소     MP4 영상을 임시로 지정

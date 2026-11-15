@@ -9,7 +9,6 @@ GitHub Pages(설정 → Pages → `main` 브랜치 `/docs` 폴더)를 켜면 아
 | 퀴즈 | 주소 |
 |---|---|
 | 1·2강 기초 복습 퀴즈 | `https://ykkimhgu.github.io/intro-mce-freshman-course/quiz/?set=quiz12` |
-| 3·4강 복습 퀴즈 | `https://ykkimhgu.github.io/intro-mce-freshman-course/quiz/?set=quiz34` |
 | 3·4강 기초 복습 퀴즈 | `https://ykkimhgu.github.io/intro-mce-freshman-course/quiz/?set=quiz34-basic` |
 
 영상이나 멈춤 시점이 아직 없으면 영상 없이 문제만 순서대로 풉니다.

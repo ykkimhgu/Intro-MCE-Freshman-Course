@@ -9,8 +9,8 @@ const ReactDOMServer = require("react-dom/server");
 const sharp = require("sharp");
 const fa = require("react-icons/fa");
 const { applyTheme } = require(require("path").join(__dirname, "../../tools/repo.js"));
-// 인자: 문항 데이터 파일 (기본 quiz_data.js). META 로 제목과 출력 파일 이름을 정함
-const DATA = require(require("path").resolve(__dirname, process.argv[2] || "quiz_data.js"));
+// 인자: 문항 데이터 파일 (기본 quiz_data_basic.js). META 로 제목과 출력 파일 이름을 정함
+const DATA = require(require("path").resolve(__dirname, process.argv[2] || "quiz_data_basic.js"));
 const { PAUSE, INTRO, SECTIONS, OUTRO, Q } = DATA;
 const META = DATA.META || { title: "복습 퀴즈", file: "3-4강_복습퀴즈" };
 
